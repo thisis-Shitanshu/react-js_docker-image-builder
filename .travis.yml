@@ -7,7 +7,7 @@ before_install:
   - docker build -t shitanshu/docker-react -f Dockerfile.dev .
 
 deploy:
-  provides: elasticbeanstalk
+  provider: elasticbeanstalk
   region: "us-east-2"
   app: "docker-react"
   env: "DockerReact-env"
