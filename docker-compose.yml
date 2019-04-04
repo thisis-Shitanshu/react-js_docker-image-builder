@@ -8,4 +8,4 @@ services:
       - "3000:3000"
     volumes:
       - /app/node_modules
-      - //f/docker/projects/frontend:/app
+      - //f/docker/projects/docker-react:/app
